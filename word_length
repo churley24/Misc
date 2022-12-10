@@ -1,0 +1,7 @@
+#checks to see if 2 strings have the same length 
+
+def word_length(w1, w2):
+    if len(w1) == len(w2):
+        print("words have same length")
+    else:
+        print("words don't have same length")
