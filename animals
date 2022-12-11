@@ -1,0 +1,9 @@
+#add hamster to a list if it is not in the list already
+
+animals_list = ["mouse", "rat", "squirrel", "chipmunk"]
+
+for items in animals_list:
+    if "hamster" in animals_list:
+        print(animals_list)
+    else:
+        animals_list.append("hamster")
