@@ -1,0 +1,8 @@
+#count how many 'p' are in a word
+
+def count_p(word):
+    for ch in word:
+        if ch == "p":
+            print("found 'p'")
+
+count_p("happiness")
