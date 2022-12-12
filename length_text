@@ -1,0 +1,7 @@
+#takes a string and counts the length, if there are less than or equal to 140 characters, the text is ok but if it is more than 140, the text is too big
+
+def length_text(chat):
+    if len(chat) <= 140:
+        print("text is okay")
+    else:
+        print("text is too big")
