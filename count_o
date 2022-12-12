@@ -1,0 +1,8 @@
+#counts the amount of times 'o' appears in a word
+
+def count_o(word):
+    total = 0
+    for ch in word:
+        if ch == "o":
+            total = total + 1
+    print(total)
